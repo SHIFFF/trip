@@ -1,6 +1,6 @@
 <template>
     <div class="tab-bar">
-        <template v-for="(item, index) in tabbarData">
+        <template v-for="(item, index) in tabbarData" :key="index">
             <div 
              class="tab-bar-item"
              :class="{ active: currentIndex === index }"

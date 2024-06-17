@@ -1,6 +1,6 @@
 <template>
     <div class="nav-bar">
-        <div class="title">随心走</div>
+        <div class="title">旅居宝典</div>
     </div>
 </template>
 
